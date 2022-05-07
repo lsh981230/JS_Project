@@ -1,6 +1,7 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
 #include "JS_ProjectGameMode.h"
+
 #include "JS_ProjectCharacter.h"
 #include "UObject/ConstructorHelpers.h"
 
@@ -48,7 +49,7 @@ AJS_ProjectGameMode::AJS_ProjectGameMode()
 
 		SOCKADDR_IN		_serverAddr;
 		_serverAddr.sin_family = AF_INET;
-		InetPton(AF_INET, L"127.0.0.1", &_serverAddr.sin_addr);
+		InetPton(AF_INET, L"220.120.95.238", &_serverAddr.sin_addr);
 		_serverAddr.sin_port = htons(10001);
 
 
@@ -57,27 +58,38 @@ AJS_ProjectGameMode::AJS_ProjectGameMode()
 		//--------------------------------------------------- 
 		// 4. connect
 		//--------------------------------------------------- 
-
+		int32 errorNum = 0;
 		for (;;)
 		{
-			if (connect(_socket, (SOCKADDR*)&_serverAddr, sizeof(_serverAddr)) == SOCKET_ERROR)
+			
+
+			if ( connect(_socket, (SOCKADDR*)&_serverAddr, sizeof(_serverAddr)) == SOCKET_ERROR)
 			{
 				int a = 0;
 				a++;
 			}
 			else
-				break;
+			{
+				int a = 0;
+				a++;
+			}
+
+			errorNum = WSAGetLastError();
+
+			break;
 		}
 
+		if (errorNum == 1)
+		{
+			int a = 0;
+			a++;
 
+		}
 		// Nonblock 소켓으로 변경
 		ULONG isNonBlocking = 1;
 		ioctlsocket(_socket, FIONBIO, &isNonBlocking);
 
 
-		for (;;)
-		{
-
-		}
+	
 	}
 }
