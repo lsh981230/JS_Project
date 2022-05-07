@@ -6,7 +6,7 @@
 /NAME:"UnrealEditor-JS_Project.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"C:\a\JS_Project\Intermediate\Build\Win64\JS_ProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\a\JS_Project\Intermediate\Build\Win64\JS_ProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.NoUndef.h.obj"
 "C:\a\JS_Project\Intermediate\Build\Win64\UnrealEditor\Development\JS_Project\JS_Project.cpp.obj"
 "C:\a\JS_Project\Intermediate\Build\Win64\UnrealEditor\Development\JS_Project\JS_ProjectCharacter.cpp.obj"
 "C:\a\JS_Project\Intermediate\Build\Win64\UnrealEditor\Development\JS_Project\JS_ProjectGameMode.cpp.obj"

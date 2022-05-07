@@ -277,10 +277,10 @@ C:\a\JS_Project\Intermediate\Build\Win64\UnrealEditor\Inc\JS_Project\JS_ProjectG
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\winrt"
-/FI"C:\a\JS_Project\Intermediate\Build\Win64\JS_ProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/FI"C:\a\JS_Project\Intermediate\Build\Win64\JS_ProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.NoUndef.h"
 /FI"C:\a\JS_Project\Intermediate\Build\Win64\UnrealEditor\Development\JS_Project\Definitions.JS_Project.h"
-/Yu"C:\a\JS_Project\Intermediate\Build\Win64\JS_ProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\a\JS_Project\Intermediate\Build\Win64\JS_ProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+/Yu"C:\a\JS_Project\Intermediate\Build\Win64\JS_ProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.NoUndef.h"
+/Fp"C:\a\JS_Project\Intermediate\Build\Win64\JS_ProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.NoUndef.h.pch"
 /Fo"C:\a\JS_Project\Intermediate\Build\Win64\UnrealEditor\Development\JS_Project\JS_ProjectGameMode.gen.cpp.obj"
 /sourceDependencies C:\a\JS_Project\Intermediate\Build\Win64\UnrealEditor\Development\JS_Project\JS_ProjectGameMode.gen.cpp.json
 /Zc:inline
@@ -315,7 +315,6 @@ C:\a\JS_Project\Intermediate\Build\Win64\UnrealEditor\Inc\JS_Project\JS_ProjectG
 /we4458
 /we4459
 /wd4463
-/we4668
 /wd4244
 /wd4838
 /TP
