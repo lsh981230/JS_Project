@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\a\\JS_Project\\Source\\JS_Project\\JS_Project.Build.cs",
+		"C:\\a\\JS_Project\\Source\\JS_Project.Target.cs",
+		"C:\\a\\JS_Project\\Source\\JS_ProjectEditor.Target.cs"
+	],
+	"EngineVersion": "5.0.1"
+}
