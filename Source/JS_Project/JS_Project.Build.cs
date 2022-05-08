@@ -9,5 +9,7 @@ public class JS_Project : ModuleRules
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay" });
-    }
+
+		bEnableUndefinedIdentifierWarnings = false;
+	}
 }
