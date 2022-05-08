@@ -75,9 +75,5 @@ AJS_ProjectGameMode::AJS_ProjectGameMode()
 		ioctlsocket(_socket, FIONBIO, &isNonBlocking);
 
 
-		for (;;)
-		{
-
-		}
 	}
 }

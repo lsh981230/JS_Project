@@ -53,5 +53,23 @@
     <ClInclude Include="..\..\Source\JS_Project\JS_ProjectGameMode.h">
       <Filter>Source\JS_Project</Filter>
     </ClInclude>
+    <None Include="..\..\Source\NetworkCore\NetworkCore.build.cs">
+      <Filter>Source\NetworkCore</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source\NetworkCore">
+      <UniqueIdentifier>{da9a0ee8-fb77-4395-a2a1-f01cb5a1664d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\NetworkCore\NetworkCore.cpp">
+      <Filter>Source\NetworkCore</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\NetworkCore\NetworkCore.h">
+      <Filter>Source\NetworkCore</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
