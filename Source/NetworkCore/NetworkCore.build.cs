@@ -2,14 +2,16 @@
 
 using UnrealBuildTool;
 
-public class JS_Project : ModuleRules
+public class NetworkCore : ModuleRules
 {
-	public JS_Project(ReadOnlyTargetRules Target) : base(Target)
+	public NetworkCore(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay" });
 
-		bEnableUndefinedIdentifierWarnings = false;
-	}
+        bEnableUndefinedIdentifierWarnings = false;
+
+        PublicAdditionalLibraries.Add("ws2_32.lib");
+    }
 }

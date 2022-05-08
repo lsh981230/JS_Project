@@ -11,6 +11,7 @@ public class JS_ProjectEditorTarget : TargetRules
 		DefaultBuildSettings = BuildSettingsVersion.V2;
 		ExtraModuleNames.Add("JS_Project");
 		ExtraModuleNames.Add("JS_Core");
+		ExtraModuleNames.Add("NetworkCore");
 
 	}
 }
