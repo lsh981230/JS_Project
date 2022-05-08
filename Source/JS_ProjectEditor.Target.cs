@@ -10,5 +10,7 @@ public class JS_ProjectEditorTarget : TargetRules
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
 		ExtraModuleNames.Add("JS_Project");
+		ExtraModuleNames.Add("JS_Core");
+
 	}
 }

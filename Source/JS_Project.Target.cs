@@ -10,5 +10,7 @@ public class JS_ProjectTarget : TargetRules
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
 		ExtraModuleNames.Add("JS_Project");
+		ExtraModuleNames.Add("JS_Core");
+
 	}
 }
