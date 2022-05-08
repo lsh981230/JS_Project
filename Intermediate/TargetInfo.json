@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "JS_Project",
-			"Path": "C:\\a\\JS_Project\\Source\\JS_Project.Target.cs",
+			"Path": "E:\\UnrealProject\\JS_Project\\Source\\JS_Project.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "JS_ProjectEditor",
-			"Path": "C:\\a\\JS_Project\\Source\\JS_ProjectEditor.Target.cs",
+			"Path": "E:\\UnrealProject\\JS_Project\\Source\\JS_ProjectEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

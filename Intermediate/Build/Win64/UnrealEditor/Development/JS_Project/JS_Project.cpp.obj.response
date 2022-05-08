@@ -1,7 +1,7 @@
-C:\a\JS_Project\Source\JS_Project\JS_Project.cpp
+E:\UnrealProject\JS_Project\Source\JS_Project\JS_Project.cpp
 /I .
-/I C:\a\JS_Project\Intermediate\Build\Win64\UnrealEditor\Inc\JS_Project
-/I C:\a\JS_Project\Source
+/I E:\UnrealProject\JS_Project\Intermediate\Build\Win64\UnrealEditor\Inc\JS_Project
+/I E:\UnrealProject\JS_Project\Source
 /I Runtime
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
@@ -271,18 +271,18 @@ C:\a\JS_Project\Source\JS_Project\JS_Project.cpp
 /I ThirdParty\PhysX3\PhysX_3.4\Include\common
 /I ThirdParty\PhysX3\PhysX_3.4\Include\extensions
 /I ThirdParty\PhysX3\PhysX_3.4\Include\geometry
-/I "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\INCLUDE"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.20348.0\winrt"
-/FI"C:\a\JS_Project\Intermediate\Build\Win64\JS_ProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.NoUndef.h"
-/FI"C:\a\JS_Project\Intermediate\Build\Win64\UnrealEditor\Development\JS_Project\Definitions.JS_Project.h"
-/Yu"C:\a\JS_Project\Intermediate\Build\Win64\JS_ProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.NoUndef.h"
-/Fp"C:\a\JS_Project\Intermediate\Build\Win64\JS_ProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.NoUndef.h.pch"
-/Fo"C:\a\JS_Project\Intermediate\Build\Win64\UnrealEditor\Development\JS_Project\JS_Project.cpp.obj"
-/sourceDependencies C:\a\JS_Project\Intermediate\Build\Win64\UnrealEditor\Development\JS_Project\JS_Project.cpp.json
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
+/FI"E:\UnrealProject\JS_Project\Intermediate\Build\Win64\JS_ProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.NoUndef.h"
+/FI"E:\UnrealProject\JS_Project\Intermediate\Build\Win64\UnrealEditor\Development\JS_Project\Definitions.JS_Project.h"
+/Yu"E:\UnrealProject\JS_Project\Intermediate\Build\Win64\JS_ProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.NoUndef.h"
+/Fp"E:\UnrealProject\JS_Project\Intermediate\Build\Win64\JS_ProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.NoUndef.h.pch"
+/Fo"E:\UnrealProject\JS_Project\Intermediate\Build\Win64\UnrealEditor\Development\JS_Project\JS_Project.cpp.obj"
+/sourceDependencies E:\UnrealProject\JS_Project\Intermediate\Build\Win64\UnrealEditor\Development\JS_Project\JS_Project.cpp.json
 /Zc:inline
 /nologo
 /Oi

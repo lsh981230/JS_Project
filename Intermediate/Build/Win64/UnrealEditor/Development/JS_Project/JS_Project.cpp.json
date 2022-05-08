@@ -1,12 +1,12 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "c:\\a\\js_project\\source\\js_project\\js_project.cpp",
+        "Source": "e:\\unrealproject\\js_project\\source\\js_project\\js_project.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\a\\js_project\\intermediate\\build\\win64\\js_projecteditor\\development\\engine\\sharedpch.engine.shadowerrors.noundef.h.pch",
+        "PCH": "e:\\unrealproject\\js_project\\intermediate\\build\\win64\\js_projecteditor\\development\\engine\\sharedpch.engine.shadowerrors.noundef.h.pch",
         "Includes": [
-            "c:\\a\\js_project\\intermediate\\build\\win64\\unrealeditor\\development\\js_project\\definitions.js_project.h",
-            "c:\\a\\js_project\\source\\js_project\\js_project.h"
+            "e:\\unrealproject\\js_project\\intermediate\\build\\win64\\unrealeditor\\development\\js_project\\definitions.js_project.h",
+            "e:\\unrealproject\\js_project\\source\\js_project\\js_project.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
